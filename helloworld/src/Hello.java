@@ -1,5 +1,11 @@
 public class Hello {
-    public static void main(String[] args) {
-        System.out.println("hello");
+    private String value;
+
+    public String getValue() {
+        return value;
+    }
+
+    public void setValue(String value) {
+        this.value = value;
     }
 }
