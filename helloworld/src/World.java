@@ -10,10 +10,6 @@ public class World {
     }
 
     public void printValue() {
-        if (null == value) {
-            return;
-        } else {
-            System.out.println(value);
-        }
+        if (null != value) System.out.println(value);
     }
 }
