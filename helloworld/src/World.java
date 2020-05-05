@@ -8,4 +8,8 @@ public class World {
     public void setValue(String value) {
         this.value = value;
     }
+
+    public void printValue() {
+        if (null != value) System.out.println(value);
+    }
 }
