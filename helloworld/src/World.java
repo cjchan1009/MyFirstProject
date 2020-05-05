@@ -9,4 +9,11 @@ public class World {
         this.value = value;
     }
 
+    public void printValue() {
+        if (null == value) {
+            return;
+        } else {
+            System.out.println(value);
+        }
+    }
 }
